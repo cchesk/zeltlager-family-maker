@@ -8,8 +8,11 @@ namespace ZeltlagerFamilyMaker.Models
 {
     class Singleton
     {
+        public Settings settings = new Settings();
+        public int nextFamSize();
+
         private static Singleton instance;
-        private List<Child> allChildren;
+        private List<Child> allChildren = new List<Child>();
 
         private Singleton() { }
 
