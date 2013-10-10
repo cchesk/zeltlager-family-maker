@@ -16,5 +16,11 @@ namespace ZeltlagerFamilyMaker
         {
             InitializeComponent();
         }
+
+        private void Execute_Click(object sender, EventArgs e)
+        {
+            var lines = textBox1.Lines;
+            textBox1.Text = "You have clicked the button!";
+        }
     }
 }

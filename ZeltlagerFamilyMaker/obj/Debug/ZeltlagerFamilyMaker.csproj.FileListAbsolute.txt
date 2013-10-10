@@ -1,1 +1,9 @@
 c:\users\umov\documents\visual studio 2012\Projects\ZeltlagerFamilyMaker\ZeltlagerFamilyMaker\bin\Debug\ZeltlagerFamilyMaker.exe.config
+c:\users\umov\documents\visual studio 2012\Projects\ZeltlagerFamilyMaker\ZeltlagerFamilyMaker\bin\Debug\ZeltlagerFamilyMaker.exe
+c:\users\umov\documents\visual studio 2012\Projects\ZeltlagerFamilyMaker\ZeltlagerFamilyMaker\bin\Debug\ZeltlagerFamilyMaker.pdb
+c:\users\umov\documents\visual studio 2012\Projects\ZeltlagerFamilyMaker\ZeltlagerFamilyMaker\obj\Debug\ZeltlagerFamilyMaker.csprojResolveAssemblyReference.cache
+c:\users\umov\documents\visual studio 2012\Projects\ZeltlagerFamilyMaker\ZeltlagerFamilyMaker\obj\Debug\ZeltlagerFamilyMaker.Properties.Resources.resources
+c:\users\umov\documents\visual studio 2012\Projects\ZeltlagerFamilyMaker\ZeltlagerFamilyMaker\obj\Debug\ZeltlagerFamilyMaker.csproj.GenerateResource.Cache
+c:\users\umov\documents\visual studio 2012\Projects\ZeltlagerFamilyMaker\ZeltlagerFamilyMaker\obj\Debug\ZeltlagerFamilyMaker.exe
+c:\users\umov\documents\visual studio 2012\Projects\ZeltlagerFamilyMaker\ZeltlagerFamilyMaker\obj\Debug\ZeltlagerFamilyMaker.pdb
+c:\users\umov\documents\visual studio 2012\Projects\ZeltlagerFamilyMaker\ZeltlagerFamilyMaker\obj\Debug\ZeltlagerFamilyMaker.Form1.resources
