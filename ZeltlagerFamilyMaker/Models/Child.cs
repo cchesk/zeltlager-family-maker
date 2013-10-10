@@ -20,6 +20,8 @@ namespace ZeltlagerFamilyMaker.Models
         public Child wishedMate;
         public Child wishedBy;
 
+        public ChildChain childChain;
+
         public Child(int id, string firstName, string lastName, bool isMale, DateTime dateOfBirth, int? wishedMateID)
         {
             this.id = id;
