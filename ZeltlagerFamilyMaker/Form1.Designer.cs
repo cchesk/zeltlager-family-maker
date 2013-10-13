@@ -49,7 +49,8 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(360, 309);
             this.textBox1.TabIndex = 1;
-            this.textBox1.Text = "Test\r\nTest2\r\nTest3";
+            this.textBox1.Text = "0; Aleksander; Umov; 12.06.1994; 1\r\n1; Mihhail; Umov; 17.07.1988; 0\r\n2; Robert; W" +
+    "eindl; 18.02.1992;\r\n";
             // 
             // Form1
             // 

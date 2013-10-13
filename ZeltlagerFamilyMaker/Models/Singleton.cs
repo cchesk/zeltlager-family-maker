@@ -34,7 +34,7 @@ namespace ZeltlagerFamilyMaker.Models
 
         public bool addChild(Child child)
         {
-            if (allChildren.Exists(c => c.id == child.id))
+            if (!allChildren.Exists(c => c.id == child.id))
             {
                 allChildren.Add(child);
                 return true;
@@ -52,9 +52,12 @@ namespace ZeltlagerFamilyMaker.Models
                 {
                     var wishedMate = allChildren.Find(c => c.id == (int)child.wishedMateId && c.wishedMateId == child.id && Math.Abs( (c.dateOfBirth - child.dateOfBirth).Days )<= settings.maxAgeDifferenceInFam.Days);
                     {
-                        child.wishedMate = wishedMate;
-                        child.wishedBy = wishedMate;
-                        child.wishedById = wishedMate.id;
+                        if (wishedMate != null)
+                        {
+                            child.wishedMate = wishedMate;
+                            child.wishedBy = wishedMate;
+                            child.wishedById = wishedMate.id;
+                        }
                     }
                 }
                 else
@@ -141,6 +144,11 @@ namespace ZeltlagerFamilyMaker.Models
             var currentChildChain = allChildChains.First();
             allChildChains.RemoveAt(0);
             return currentChildChain;
+        }
+
+        public string getFams()
+        {
+            return "Family 1";
         }
     }
 }
